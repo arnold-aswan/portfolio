@@ -1,4 +1,4 @@
-import { Hero, Navbar } from "@/components";
+import { About, Hero, Navbar } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
       <Navbar />
       <div className="container mt-32 mx-auto py-4 px-12">
         <Hero />
+        <About />
       </div>
     </main>
   );
